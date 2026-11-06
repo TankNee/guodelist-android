@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg">#FF171614</color>
+    <color name="widget_ink">#FFF2EFE9</color>
+    <color name="widget_ink2">#FFD6CFC6</color>
+    <color name="widget_ink3">#FF9A938A</color>
+    <color name="widget_line">#FF2B2825</color>
+    <color name="widget_brand">#FFF2694C</color>
+    <color name="widget_progress_bg">#FF2E2A26</color>
+    <color name="widget_quick_bg">#FFF2694C</color>
+    <color name="widget_on_quick">#FF1A1210</color>
+</resources>
