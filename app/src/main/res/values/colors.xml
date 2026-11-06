@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canvas">#FFEBE8E3</color>
+    <color name="ic_launcher_background">#FFF4EDE3</color>
+    <color name="widget_bg">#FFFFFEFC</color>
+    <color name="widget_ink">#FF1C1A17</color>
+    <color name="widget_ink2">#FF514A42</color>
+    <color name="widget_ink3">#FF6D655B</color>
+    <color name="widget_line">#FFE7E2DA</color>
+    <color name="widget_brand">#FFE1543A</color>
+    <color name="widget_progress_bg">#FFEDE7DE</color>
+    <color name="widget_quick_bg">#FFE1543A</color>
+    <color name="widget_on_quick">#FFFFFFFF</color>
+</resources>
