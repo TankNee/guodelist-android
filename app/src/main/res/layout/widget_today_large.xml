@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.12"
+            android:text="@string/app_name"
+            android:textColor="@color/widget_brand"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/widget_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/widget_ink3"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/widget_refresh"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/widget_refresh"
+            android:padding="5dp"
+            android:src="@drawable/ic_widget_refresh"
+            android:tint="@color/widget_ink3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
+            android:textColor="@color/widget_ink"
+            android:textSize="43sp" />
+
+        <TextView
+            android:id="@+id/widget_count_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1"
+            android:textColor="@color/widget_ink3"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/widget_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progressBackgroundTint="@color/widget_progress_bg"
+        android:progressTint="@color/widget_brand" />
+
+    <TextView
+        android:id="@+id/widget_task_1"
+        style="@style/WidgetTaskRowLarge"
+        android:text="@string/widget_preview_task_1" />
+
+    <TextView
+        android:id="@+id/widget_task_2"
+        style="@style/WidgetTaskRowLarge"
+        android:text="@string/widget_preview_task_2" />
+
+    <TextView
+        android:id="@+id/widget_task_3"
+        style="@style/WidgetTaskRowLarge"
+        android:text="@string/widget_preview_task_3" />
+
+    <TextView
+        android:id="@+id/widget_task_4"
+        style="@style/WidgetTaskRowLarge" />
+
+    <TextView
+        android:id="@+id/widget_task_5"
+        style="@style/WidgetTaskRowLarge" />
+
+    <TextView
+        android:id="@+id/widget_task_6"
+        style="@style/WidgetTaskRowLarge" />
+
+    <TextView
+        android:id="@+id/widget_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textColor="@color/widget_ink3"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/widget_today_empty"
+        android:textColor="@color/widget_ink3"
+        android:textSize="13sp"
+        android:visibility="gone" />
+</LinearLayout>
